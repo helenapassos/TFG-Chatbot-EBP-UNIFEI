@@ -1,0 +1,263 @@
+CURSO DE ENGENHARIA DE BIOPROCESSOS — UNIFEI
+(Fonte: Projeto Pedagógico do Curso, Grade 2023)
+
+DADOS GERAIS DO CURSO
+- Ato de Criação: Resolução do Conselho Universitário da UNIFEI, de 12/05/2008
+- Ato de Reconhecimento: Publicação no DOU, Portaria Nº 187, de 17 de março de 2018
+- Registro E-MEC: 201502778
+- Grau Conferido: Engenheiro de Bioprocessos (Bacharel)
+- Regime letivo: Semestral
+- Duração mínima recomendada: 10 semestres (5 anos)
+- Tempo de integralização: mínimo de 4,5 anos e máximo de 9 anos
+- Tempo máximo permitido para trancamento do curso: 2 anos
+- Número total de vagas ao ano: 30
+- Número de turmas por ano de ingresso: 1
+- Turno: Integral
+- Modalidade: Presencial
+- Habilitação: Engenheiro de Bioprocessos
+- Local de Oferta: Universidade Federal de Itajubá – Campus Itajubá
+- Forma de Ingresso: 100% ENEM/SiSU, sendo 50% para ampla concorrência e 50% para cotas sociais/raciais
+- Carga Horária Total: 3686 horas-relógio (4021 horas-aula)
+- Número atual de docentes específicos da Engenharia de Bioprocessos: 6
+- O curso pertence ao Instituto de Recursos Naturais (IRN)
+
+COORDENAÇÃO DO CURSO
+- Coordenador: Prof. Dr. Carlos Roberto Rocha
+- Coordenador Adjunto: Prof. Dr. Guilherme Youssef Rodriguez
+- E-mail da coordenação: ebp.itajuba@unifei.edu.br
+
+CORPO DOCENTE ESPECÍFICO DO CURSO
+- Prof. Dr. André Aguiar Mendes (Enzimas de interesse industrial, tratamento de efluentes)
+- Prof. Dr. Carlos Roberto Rocha (Instrumentação de bioprocessos, produção de biogás)
+- Prof. Dr. Guilherme Youssef Rodriguez (Modelagem e simulação de bioprocessos)
+- Prof. Dr. Luiz Carlos Bertucci Barbosa (Bioinformática, engenharia genética e ciência de dados)
+- Prof. Dr. Marcelo Chuei Matsudo (Microbiologia geral, microbiologia industrial e cultivo de microrganismos fotossintetizantes)
+- Profa. Dra. Thais Suzane Milessi Esteves (Processos fermentativos e enzimáticos, aproveitamento de materiais lignocelulósicos, bioprocessos promovidos por microrganismos recombinantes)
+
+FORMAS DE ACESSO AO CURSO
+1. Admissão inicial: 30 vagas anuais via ENEM/SiSU no primeiro semestre.
+2. Admissão complementar (vagas remanescentes):
+   a) Transferência interna (entre cursos da UNIFEI, mesmo campus ou outro campus)
+   b) Transferência externa/facultativa (entre instituições de ensino superior)
+   c) Portadores de diploma de curso superior
+3. Programa PEC-G (Programa de Estudante de Convênio - Graduação)
+
+COMPOSIÇÃO DA CARGA HORÁRIA
+- Disciplinas obrigatórias: 2890 horas-relógio (78,39%)
+- Disciplinas optativas (mínima): 88 horas-relógio (2,39%) — mínimo de 96 horas-aula (duas disciplinas de 48h)
+- Atividades complementares não-extensionistas (mínima): 64 horas-relógio (1,74%)
+- Atividades extensionistas (mínima): 368,6 horas-relógio (10%)
+- Distribuição: Básicas (34,9%), Profissionalizantes (41,5%), Específicas (23,8%), Prática (25,7%)
+
+GRADE CURRICULAR — DISCIPLINAS POR PERÍODO
+
+1º Período:
+- EBP101 Introdução à Engenharia de Bioprocessos (32h)
+- EBP102 Fundamentos de Biologia Celular (32h)
+- ADM51H Ciência, Tecnologia e Organizações (48h)
+- CCO016 Fundamentos de Programação (64h)
+- MAT00A Cálculo A (64h)
+- QUI016 Química Geral (64h)
+- QUI113 Química Geral Experimental (32h)
+
+2º Período:
+- DES005 Desenho Técnico Básico (32h)
+- FIS210 Física I (64h)
+- FIS212 Física Experimental I (32h)
+- LET013 Escrita Acadêmico-Científica (32h)
+- MAT00B Cálculo B (64h)
+- MAT00D Equações Diferenciais A (64h)
+- QUI021 Química Bio-Orgânica (64h)
+
+3º Período:
+- EBP103 Bioquímica I (32h)
+- EBP104 Princípios e Cálculos Elementares da Engenharia de Bioprocessos (64h)
+- DES006 Desenho Técnico Auxiliado por Computador (48h)
+- EEB100 Eletricidade Básica I (48h)
+- EME311 Mecânica dos Sólidos (64h)
+- MAT00C Cálculo C (64h)
+- MAT00N Cálculo N (64h)
+
+4º Período:
+- EBP105 Bioquímica II (48h)
+- EBP106 Bioquímica Experimental (16h)
+- BLI027 Biologia Molecular (64h)
+- EQI105 Termodinâmica para Engenharia Química I (64h)
+- MAT00E Equações Diferenciais B (64h)
+- MAT013 Probabilidade e Estatística (64h)
+- QUI105 Química Analítica (48h)
+- QUI115 Química Analítica Experimental (32h)
+
+5º Período:
+- EBP107 Microbiologia Geral (48h)
+- EBP108 Microbiologia Geral Experimental (32h)
+- EBP109 Atividade da Água em Bioprocessos (48h)
+- EBP110 Bioinformática (80h)
+- EQI004 Fenômenos de Transporte I (64h)
+- EQI107 Termodinâmica para Engenharia Química II (64h)
+- IEPG10 Engenharia Econômica (48h)
+- IRN001 Ciências do Ambiente (32h)
+
+6º Período:
+- EBP111 Biossegurança e Bioética (32h)
+- EBP112 Cinética Química e Projeto de Reatores para Bioprocessos (64h)
+- EBP113 Cultura de Células (48h)
+- EBP114 Engenharia Genética (64h)
+- EPR220 Higiene e Segurança do Trabalho (32h)
+- EQI013 Fenômenos de Transporte II (64h)
+- EQI110 Materiais para a Indústria Química (32h)
+- EQI113 Operações Unitárias da Indústria Química I (64h)
+
+7º Período:
+- EBP115 Separação e Purificação de Biomoléculas (32h)
+- EBP116 Separação e Purificação de Biomoléculas Experimental (16h)
+- EBP117 Laboratório de Engenharia de Bioprocessos 1 (64h)
+- EBP118 Tecnologia Enzimática (48h)
+- EBP119 Engenharia Bioquímica (64h)
+- IEPG20 Introdução à Economia (48h)
+- EQI022 Fenômenos de Transporte III (64h)
+- EQI115 Operações Unitárias da Indústria Química II (64h)
+
+8º Período:
+- EBP120 Modelagem e Simulação de Bioprocessos (80h)
+- EBP121 Laboratório de Engenharia de Bioprocessos 2 (64h)
+- EBP122 Microbiologia Industrial (48h)
+- EBP123 Microbiologia Industrial Experimental (16h)
+- EBP124 Tratamento de Resíduos (48h)
+- EQI118 Operações Unitárias da Indústria Química III (64h)
+- EQI054 Instalações na Indústria Química (32h)
+- Optativa I (48h)
+
+9º Período:
+- EBP125 Instrumentação e Controle de Bioprocessos (64h)
+- EBP126 Projetos em Bioprocessos (48h)
+- Optativa II (48h)
+
+Outros componentes curriculares:
+- Trabalho de Conclusão de Curso I — TCC1 (51,2h)
+- Trabalho de Conclusão de Curso II — TCC2 (76,8h)
+- Estágio Supervisionado (174h)
+- Atividades Complementares Não-Extensionistas (mínimo 64h-relógio)
+- Atividades Extensionistas (mínimo 368,6h-relógio = 10% da carga total)
+
+DISCIPLINAS OPTATIVAS DISPONÍVEIS
+- EBP01A Planilhas Eletrônicas Avançadas com Aplicações na Engenharia de Bioprocessos (48h)
+- EBP02A Fluidodinâmica Computacional Aplicada aos Bioprocessos (48h)
+- EBP03A Introdução à Ciência de Dados (48h)
+- EBP04A Inovação e Empreendedorismo (48h)
+- EBP05A Tecnologia de Bebidas Fermentadas (48h)
+- EBP06A Bioenergia (48h)
+- ADM01E Empreendedorismo e Novos Negócios (48h)
+- ADM01F Finanças – Conceitos e Aplicações (32h)
+- ADM02E Empreendedorismo Social — Extensão (48h)
+- ADM03E Empreendedorismo Tecnológico — Extensão (48h)
+- ADM04E Empreendedorismo e Sustentabilidade (48h)
+- ADM08H Psicologia: Processos Psicossociais Básicos (48h)
+- ADM51E Gestão do Conhecimento (48h)
+- ADM54F Finanças Comportamentais (32h)
+- ADM54H Gestão de Carreira (32h)
+- EPR401 Processo de Desenvolvimento de Produtos (32h)
+- IEPG13 Custos Empresariais (48h)
+- IEPG01 Empreendedorismo e Inovação (48h)
+- IEPG05 Finanças para Executivos (48h)
+- IEPG07 Gestão da Qualidade (48h)
+- IEPG08 Gestão de Projetos (48h)
+- IEPG09 Planejamento e Controle da Produção (48h)
+- IEPG11 Gestão de Operações e Serviços (48h)
+- IEPG15 Logística e Gestão da Cadeia de Suprimentos (32h)
+- IEPG22 Administração Aplicada (32h)
+- LET007 Língua Brasileira de Sinais (48h)
+- LET014 Comunicação oral para fins acadêmicos (32h)
+- PGY050 Ergonomia (32h)
+
+Nota: Disciplinas optativas pertencem ao currículo do curso de EBP e aprofundam áreas específicas. Disciplinas eletivas podem ser de qualquer curso da UNIFEI e ampliam a formação em áreas complementares.
+
+DISCIPLINAS OPTATIVAS vs ELETIVAS
+- Disciplinas optativas: pertencem ao rol do curso de EBP (listadas acima) e aprofundam áreas específicas da engenharia de bioprocessos.
+- Disciplinas eletivas: podem ser de qualquer curso da UNIFEI e ampliam a formação do aluno em áreas complementares.
+
+AS 4 TRILHAS DE CONHECIMENTO
+a) Biotecnologia: EBP102, QUI021, EBP103, EBP105, EBP106, BLI027, EBP107, EBP108, EBP109, EBP111, EBP113, EBP114, EBP115, EBP116, EBP118, EBP119, EBP122, EBP123
+b) Engenharia de Processos Industriais: EBP104, EQI105, EQI107, EQI004, EBP112, EQI113, EQI013, EQI115, EQI022, EBP117, EBP120, EBP121, EQI118, EQI054, EBP125, EBP126
+c) Indústria 4.0 e Simulação de Processos: CCO016, DES006, EBP104, EBP110, EBP112, EBP114, EBP120, EBP125, EBP01A, EBP02A, EBP03A
+d) Gestão e Empreendedorismo: Disciplinas da Formação Complementar em Empreendedorismo oferecida pelo IEPG
+
+ATIVIDADES COMPLEMENTARES (mínimo 64 horas-relógio)
+São atividades que possibilitam o desenvolvimento de habilidades e competências do discente. Tipos e cargas horárias:
+
+Atividades de Ensino:
+- Monitoria: 20h por disciplina
+- Visitas técnicas: 5h por visita
+- Disciplinas em outros cursos: carga horária da disciplina
+
+Atividades de Pesquisa:
+- Iniciação científica: 90h por projeto
+- Participação em eventos científicos: 10h por evento
+- Apresentação de resumo em congresso: 5h por apresentação
+- Apresentação oral em congresso: 15h por apresentação
+- Apresentação de trabalho completo em congresso: 8h por trabalho
+- Publicação de artigos em periódicos indexados: 15h por artigo
+- Publicação de artigos em periódicos não indexados: 10h por artigo
+- Grupo de estudos orientado: 15h por ano
+
+Atividades de Representação Estudantil:
+- Participação no diretório acadêmico: 15h por ano
+- Membro dos Conselhos Superiores ou Colegiado do curso: 15h por mandato
+
+Outras atividades:
+- Estágio extracurricular não-obrigatório: 30h por estágio
+- Membro de comissão organizadora de evento: 15h por evento
+- Minicursos ministrados em eventos acadêmicos: 25h por minicurso
+- Cursos, minicursos e oficinas: 10h por evento
+
+ATIVIDADES DE EXTENSÃO (10% da carga horária total = 368,6 horas-relógio)
+As atividades de extensão envolvem e beneficiam membros da comunidade externa à UNIFEI. Estágio, TCC e Iniciação Científica NÃO contam como extensão. Atividades aceitas:
+1) Empresas juniores (ex: INOVA Jr. UNIFEI)
+2) Projetos de competição tecnológica
+3) ONGs, CATS e CAAI
+4) Universidade Aberta
+5) Projetos de apoio social e à diversidade
+6) Bota pra Fazer UNIFEI
+7) Disciplinas extensionistas (TEX/IRN, ADM02E, ADM03E)
+8) Organização de palestras e seminários com membros externos
+9) Quaisquer projetos de extensão registrados na PROEX/UNIFEI
+
+SISTEMA DE AVALIAÇÃO
+- Frequência mínima: 75% nas atividades teóricas e 75% nas atividades práticas
+- Notas: de 0 a 10
+- Aprovação: média das notas igual ou superior a 6,0, além da frequência mínima
+- Avaliação substitutiva: disponível para alunos com média inferior a 6,0 (e frequência mínima atingida). Substitui a menor nota. A nova média deve ser igual ou superior a 6,0 para aprovação.
+- Revisão de notas: o discente pode solicitar revisão em até 48 horas após divulgação
+- Sistema acadêmico: SIGAA (https://sigaa.unifei.edu.br)
+
+ÁREAS DE ATUAÇÃO DO ENGENHEIRO DE BIOPROCESSOS
+- Indústria de alimentos e bebidas (especialmente produtos fermentativos)
+- Indústria farmacêutica (biofármacos, vacinas, antibióticos)
+- Meio ambiente (tratamento biológico de resíduos, controle de poluição)
+- Indústria química e de biocombustíveis
+- Cosméticos e química fina
+- Fertilizantes
+- Biomassa e derivados
+- Pesquisa e desenvolvimento (P&D)
+- Consultoria ambiental e industrial
+- Ciência de dados, TI, logística, gestão de projetos (conforme feedback de egressos)
+- Atuação autônoma, empresa própria ou consultoria
+
+REGULAMENTAÇÃO PROFISSIONAL
+- Título: Engenheiro de Bioprocessos e Biotecnologia
+- Resolução CONFEA Nº 1.108, de 29 de novembro de 2018
+- Grupo 1 – Engenharia, Modalidade 4 – Química, Nível 1 – Graduação
+
+TRANCAMENTO DE DISCIPLINA
+O aluno pode solicitar trancamento de disciplina dentro do prazo estabelecido no calendário acadêmico. O trancamento não gera reprovação. O pedido deve ser feito pelo sistema acadêmico (SIGAA).
+
+SUSPENSÃO DE SEMESTRE
+O aluno pode solicitar suspensão de semestre (trancamento geral). O tempo máximo permitido para trancamento do curso é de 2 anos. A solicitação deve ser feita na coordenação do curso.
+
+LOCALIZAÇÃO
+Universidade Federal de Itajubá – UNIFEI
+Campus Professor José Rodrigues Seabra
+Avenida BPS, 1303, bairro Pinheirinho
+Itajubá/MG – CEP 37500-903
+Telefone: (35) 3629-1101
+www.unifei.edu.br

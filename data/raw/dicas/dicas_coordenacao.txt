@@ -1,0 +1,150 @@
+===== DICAS E ORIENTAÇÕES INFORMAIS DA COORDENAÇÃO EBP =====
+(Estas são orientações informais baseadas em comunicados da Coordenação.
+Podem estar desatualizadas. Sempre confirme com a Coordenação antes de tomar decisões.)
+
+
+--- SOBRE ESTÁGIO E TFG ---
+
+Discentes que se matricularam em TFG ou Estágio e não concluíram esses componentes
+dentro do prazo previsto são reprovados e deverão renovar a matrícula no semestre seguinte.
+
+
+--- SOBRE O SRN (SIMPÓSIO DO IRN) ---
+
+Durante o SRN, as disciplinas que são do IRN (códigos EBP, EQI, BLI, etc.) ficam
+suspensas nos dias do evento. As disciplinas que não são do IRN (códigos MAT, FIS, QUI,
+etc.) terão aulas normais.
+
+Quem participa do SRN e tem atividade no horário de alguma aula, basta assinar a lista
+de presença no evento (palestras, minicursos). A comissão do SRN contabiliza a presença
+e notifica os professores para que abonem a falta, pois entende-se que o aluno estava
+participando de evento oficial dentro da universidade.
+
+Dúvidas operacionais e específicas sobre o SRN devem ser sanadas diretamente com a
+comissão organizadora. Página do evento: https://www.instagram.com/srn.unifei/
+
+
+--- SOBRE ABERTURA DE VAGAS E TURMAS EM DISCIPLINAS ---
+
+É somente nas últimas fases da matrícula, em geral na fase de ajuste, que todos os
+coordenadores de curso são notificados oficialmente pela PRG sobre o excesso de demanda
+por vagas nas disciplinas de seus respectivos cursos e perguntados sobre a possibilidade
+de abrir mais vagas ou turmas.
+
+Cada coordenador de curso recebe notificações apenas das disciplinas de seu código
+(por exemplo, o coordenador da EBP recebe notificações das disciplinas de código EBP).
+A partir dessas notificações, o coordenador conversa com o professor responsável pela
+disciplina para ver se é possível ou não abrir mais vagas ou turmas.
+
+Se o aluno conseguiu vaga na fase de rematrícula, provavelmente alguém desistiu ou
+trocou de turma. Se conseguiu vaga na fase de ajuste, provavelmente mais vagas ou
+turmas foram abertas.
+
+Orientação: a possibilidade de abertura de mais vagas ou turmas é avaliada somente na
+fase de ajuste. É normal que indeferimentos persistam nas fases anteriores.
+
+
+--- SOBRE A MATRÍCULA EM EBP026 (TRABALHO FINAL DE GRADUAÇÃO) ---
+
+A recomendação da Coordenação é:
+- Se o aluno está no 7º semestre e a maioria das disciplinas são do 7º semestre,
+  recomenda-se a matrícula em EBP026.
+- Se o aluno está no 9º semestre e em vias de colação de grau, também se recomenda
+  a matrícula em EBP026.
+- Se o aluno está no 7º semestre mas precisa concluir muitas disciplinas de semestres
+  anteriores (3º, 5º), NÃO se recomenda a matrícula em EBP026, exceto em casos
+  pontuais que devem ser acordados diretamente com a Coordenação.
+
+O objetivo é não prejudicar alunos regulares e em fase de colação de grau.
+
+
+--- SOBRE A ORDEM DE PRIORIDADE NA MATRÍCULA EM DISCIPLINAS ---
+
+A ordem de prioridade, conforme a Norma da Graduação, é:
+
+I. Discente nivelado: o componente curricular é do nível correspondente ao número de
+períodos letivos do discente. Exemplo: aluno no 3º semestre matriculando-se em disciplina
+do 3º semestre. Também é incluído o discente no período letivo regular imediatamente
+seguinte ao retorno de mobilidade em outra instituição.
+
+II. Discente concluinte: não é nivelado, mas a matrícula no conjunto de componentes
+solicitados o torna apto a concluir o curso naquele período letivo.
+
+III. Discente em recuperação: o componente curricular é de um nível anterior ao número
+de períodos letivos do discente (está "atrasado" naquela disciplina). Também inclui
+matrícula em componentes optativos ou complementares sem nível específico.
+
+IV. Discente adiantando: o componente curricular é de um nível posterior ao número de
+períodos letivos do discente (está "adiantando" aquela disciplina).
+
+V. Discente cursando componente curricular eletivo: o componente não pertence à
+estrutura curricular do discente, mesmo quando é equivalente a outro que pertence.
+
+
+--- SOBRE AS FASES DA MATRÍCULA ---
+
+MATRÍCULA: fase na qual o aluno solicita matrícula em disciplinas no SIGAA dentro de um
+prazo divulgado pela PRG no calendário de cada ano letivo. Quem não solicitar matrícula
+em pelo menos uma disciplina entrará em processo de desligamento por falta de vínculo
+com a UNIFEI. Após a solicitação, a PRG abre um período de processamento, onde a
+matrícula é consolidada no sistema. É nesse período que o aluno acompanha se conseguiu
+a vaga (deferimento) ou não (indeferimento).
+
+REMATRÍCULA: segunda oportunidade de fazer matrícula em disciplinas no SIGAA, após o
+processamento da fase de matrícula. Útil para tentar vagas em turmas nas quais o aluno
+foi indeferido na fase anterior, pois pode haver desistência de outros alunos e liberação
+de vagas. A rematrícula NÃO serve para quem perdeu o prazo da matrícula. Serve para
+tentar novamente ou, se for o caso, solicitar desmatrícula.
+
+MATRÍCULA EXTRAORDINÁRIA: feita fora do SIGAA, geralmente via formulário da PRG.
+Trata-se da última oportunidade de tentar a matrícula. Operações possíveis:
+- Desmatrícula de disciplina
+- Extrapolação de carga horária (apenas em necessidade extrema)
+- Alteração de turma (sob o risco de não dar certo)
+- Flexibilização de pré-requisito
+NÃO é possível fazer a quebra de pré-requisito!
+
+FASE DE AJUSTE: é o processamento da fase de matrícula extraordinária.
+
+
+--- SOBRE AS OPERAÇÕES DISPONÍVEIS NA FASE DE AJUSTE ---
+
+Todas as operações abaixo passam pela análise da Coordenação do curso:
+
+EXCLUSÃO: desmatrícula de uma disciplina na qual o aluno já está matriculado. Não há
+qualquer prejuízo nos índices acadêmicos. É o momento certo de desfazer a matrícula
+sem ônus.
+
+INCLUSÃO: matrícula em uma disciplina que tenha vagas e que não choque horário com
+outra. Se a turma não teve o número de vagas ampliado, é difícil que haja vagas.
+A Coordenação EBP só responde por disciplinas de código EBP.
+
+FLEXIBILIZAÇÃO DE PRÉ-REQUISITO: permite cursar simultaneamente uma disciplina e
+seu pré-requisito total. Exemplo: o aluno reprovou em Equações Diferenciais A (pré-requisito
+total de Equações Diferenciais B) com média entre 3,0 e 6,0. O aluno se matricula em
+EDA e solicita a flexibilização para ser matriculado também em EDB, cursando ambas no
+mesmo semestre. A flexibilização só se aplica a pré-requisitos TOTAIS, não aos parciais.
+
+COINCIDÊNCIA DE HORÁRIO: matrícula em duas turmas no mesmo horário é possível
+apenas em casos de cursos de licenciatura ou quando uma das disciplinas é 100% EaD.
+Não se aplica ao curso de EBP (que é bacharelado).
+
+EXCESSO DE CARGA HORÁRIA (CH): o caso mais comum no curso de EBP é quando o
+aluno está em vias de colação de grau e precisa cumprir uma carga horária maior do que
+o máximo permitido. Alunos com histórico extenso de REPMF terão o pedido indeferido.
+
+EXCESSO DE CH ELETIVA: o caso mais comum é quando o aluno faz a formação
+complementar em empreendedorismo do IEPG, precisando cursar disciplinas fora da
+grade da EBP (eletivas).
+
+
+--- SOBRE TRANCAMENTO DE DISCIPLINA ---
+
+A retirada de matrícula em uma disciplina durante o período de matrícula (fases de
+matrícula, rematrícula e ajuste) NÃO gera prejuízo nos índices acadêmicos.
+
+Porém, o trancamento de uma disciplina APÓS o período de matrícula gera impacto nos
+índices. Não é tão grave quanto uma reprovação, mas o SIGAA entende que, das disciplinas
+que o aluno se matriculou, houve trancamento e não houve aproveitamento de 100%.
+Há índices que levam em conta essa métrica, então é importante pensar com calma antes
+de trancar uma disciplina depois do período de matrícula.
