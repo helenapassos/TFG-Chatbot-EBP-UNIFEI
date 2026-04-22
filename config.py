@@ -45,13 +45,19 @@ def _get_secret(key: str, default: str = "") -> str:
 def _get_api_keys() -> list:
     """Retorna lista de chaves da API do Google.
 
-    Aceita duas formas de configuração:
-    - GOOGLE_API_KEYS=chave1,chave2,chave3  (lista separada por vírgula)
-    - GOOGLE_API_KEY=chave                  (chave única — retrocompatível)
+    Aceita três formas de configuração:
+    - GOOGLE_API_KEYS=chave1,chave2,chave3  (string separada por vírgula — .env)
+    - GOOGLE_API_KEYS = ["chave1", "chave2"] (lista TOML — Streamlit Secrets)
+    - GOOGLE_API_KEY=chave                   (chave única — retrocompatível)
     """
-    keys_str = _get_secret("GOOGLE_API_KEYS", "")
-    if keys_str:
-        keys = [k.strip() for k in keys_str.split(",") if k.strip()]
+    keys_val = _get_secret("GOOGLE_API_KEYS", "")
+    if keys_val:
+        if isinstance(keys_val, list):
+            # Streamlit Secrets retornou um array TOML
+            keys = [k.strip() for k in keys_val if isinstance(k, str) and k.strip()]
+        else:
+            # String separada por vírgula (do .env ou secrets como string)
+            keys = [k.strip() for k in str(keys_val).split(",") if k.strip()]
         if keys:
             return keys
     single = _get_secret("GOOGLE_API_KEY", "")
