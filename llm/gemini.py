@@ -8,6 +8,7 @@ import logging
 import time
 
 from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 
@@ -30,6 +31,15 @@ def _is_quota_error(exc: Exception) -> bool:
     )
 
 
+def _is_transient_error(exc: Exception) -> bool:
+    """Verifica se é erro temporário do servidor (503, sobrecarga)."""
+    msg = str(exc).lower()
+    return any(
+        kw in msg
+        for kw in ("503", "service unavailable", "unavailable", "overloaded", "high demand", "try again")
+    )
+
+
 def get_llm(api_key: str = "") -> ChatGoogleGenerativeAI:
     """Retorna a instância do modelo Gemini configurada."""
     return ChatGoogleGenerativeAI(
@@ -43,7 +53,7 @@ def get_llm(api_key: str = "") -> ChatGoogleGenerativeAI:
 def get_rag_chain(vectorstore=None, api_key: str = ""):
     """
     Monta a chain RAG completa:
-    pergunta → retriever → prompt + contexto → LLM → resposta.
+    pergunta → retriever → prompt + contexto + histórico → LLM → resposta.
     """
     retriever = get_retriever(vectorstore)
     prompt = get_chat_prompt()
@@ -65,8 +75,9 @@ def get_rag_chain(vectorstore=None, api_key: str = ""):
 
     chain = (
         {
-            "context": retriever | format_docs,
-            "question": RunnablePassthrough(),
+            "context": (lambda x: x["question"]) | retriever | format_docs,
+            "question": lambda x: x["question"],
+            "history": lambda x: x.get("history", []),
         }
         | prompt
         | llm
@@ -76,9 +87,10 @@ def get_rag_chain(vectorstore=None, api_key: str = ""):
     return chain
 
 
-def ask(question: str, vectorstore=None) -> str:
+def ask(question: str, vectorstore=None, history: list = None) -> str:
     """
     Envia uma pergunta ao chatbot e retorna a resposta.
+    history: lista de HumanMessage/AIMessage com os últimos turnos da conversa.
     Rotaciona automaticamente entre as chaves de API configuradas
     quando uma chave esgota sua cota.
     """
@@ -91,17 +103,23 @@ def ask(question: str, vectorstore=None) -> str:
             "Defina GOOGLE_API_KEY ou GOOGLE_API_KEYS no .env ou nos secrets."
         )
 
+    payload = {"question": question, "history": history or []}
     last_exc = None
 
     for attempt in range(len(keys)):
         current_key = keys[_current_key_index]
         try:
             chain = get_rag_chain(vectorstore, api_key=current_key)
-            response = chain.invoke(question)
+            response = chain.invoke(payload)
             time.sleep(1)
             return response
         except Exception as exc:
-            if _is_quota_error(exc):
+            if _is_transient_error(exc):
+                raise RuntimeError(
+                    "O serviço de IA está temporariamente sobrecarregado. "
+                    "Tente reformular sua pergunta com mais detalhes sobre o que você precisa saber."
+                ) from exc
+            elif _is_quota_error(exc):
                 next_index = (_current_key_index + 1) % len(keys)
                 logger.warning(
                     "Cota esgotada na chave %d/%d. Alternando para chave %d...",

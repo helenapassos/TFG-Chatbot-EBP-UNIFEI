@@ -10,6 +10,7 @@ import config
 from config import load_tips_active
 from rag.ingest import load_vectorstore, ingest_all
 from llm.gemini import ask
+from langchain_core.messages import HumanMessage, AIMessage
 
 
 def _maybe_copy_vectorstore():
@@ -161,7 +162,14 @@ if prompt:
     with st.chat_message("assistant"):
         with st.spinner("Buscando informações..."):
             try:
-                response = ask(prompt, vectorstore=vs)
+                # Últimos 2 turnos (4 mensagens) como histórico
+                history = []
+                for msg in st.session_state.messages[-4:]:
+                    if msg["role"] == "user":
+                        history.append(HumanMessage(content=msg["content"]))
+                    else:
+                        history.append(AIMessage(content=msg["content"]))
+                response = ask(prompt, vectorstore=vs, history=history)
             except Exception as e:
                 response = (
                     f"Desculpe, ocorreu um erro ao processar sua pergunta. "

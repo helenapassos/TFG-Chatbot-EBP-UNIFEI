@@ -2,7 +2,7 @@
 Templates de engenharia de prompt para o chatbot EBP.
 """
 
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 from config import load_ppc_config, load_tips_for_prompt
 
@@ -72,5 +72,6 @@ def get_chat_prompt() -> ChatPromptTemplate:
     system = _build_system_template(ppc["ppc_link"], ppc["ppc_sections"], tips)
     return ChatPromptTemplate.from_messages([
         ("system", system),
+        MessagesPlaceholder(variable_name="history", optional=True),
         ("human", HUMAN_TEMPLATE),
     ])
