@@ -1,0 +1,63 @@
+TRABALHO DE CONCLUSÃO DE CURSO (TCC) — ENGENHARIA DE BIOPROCESSOS (UNIFEI)
+(Fonte: Projeto Pedagógico do Curso, Grade 2023 — Seção 11.6.2)
+
+O Trabalho de Conclusão de Curso (TCC) é obrigatório e está previsto na Norma de Graduação da UNIFEI para integralização dos cursos de graduação. O TCC tem como objetivo geral a síntese e integração dos conhecimentos abordados durante o curso de Engenharia de Bioprocessos, além de iniciar o aluno à redação, apresentação, pesquisa e execução de temas científicos.
+
+ESTRUTURA DO TCC
+O TCC é componente curricular obrigatório de 128 horas-aula, dividido em dois semestres:
+- TCC1: Primeiro semestre de matrícula. Corresponde a 40% da carga horária total (51,2 horas-aula). Consiste no desenvolvimento do projeto de pesquisa.
+- TCC2: Segundo semestre de matrícula. Corresponde a 60% da carga horária total (76,8 horas-aula). Consiste na elaboração do texto final do trabalho e apresentação oral para banca examinadora.
+
+PRÉ-REQUISITOS
+- TCC1: O discente pode se matricular após ter concluído 60% da carga horária de componentes curriculares obrigatórios da estrutura curricular do curso.
+- TCC2: Aprovação em TCC1. O discente reprovado em TCC1 deverá se matricular em TCC1 novamente.
+
+ORIENTADOR
+- O TCC deve ser realizado individualmente pelo aluno sob orientação de um professor do quadro de docentes da UNIFEI.
+- O aluno deve procurar o Coordenador de TCC no semestre anterior ao semestre em que pretende iniciar o TCC para obter informações sobre procedimentos, normas, prazos e regras.
+
+MATRÍCULA
+- A matrícula em TCC1 ou TCC2 é realizada conforme o período de matrícula das disciplinas do calendário didático da Graduação.
+- Para a matrícula em TCC1 ou TCC2, o discente deverá entregar ao coordenador de TCC o formulário de matrícula.
+
+TCC1 — PROJETO DE PESQUISA
+Estrutura obrigatória (normas da ABNT):
+- Capa (título, nome do aluno, nome do orientador, curso, local e data)
+- Resumo
+- Sumário
+- Introdução e Justificativa
+- Objetivos
+- Metodologia
+- Cronograma
+- Referências Bibliográficas
+
+Avaliação do TCC1:
+- Feita pelo professor orientador, com nota de 0 a 10 (números inteiros).
+- O discente deve entregar o projeto ao orientador com no mínimo 1 mês antes da data limite.
+- Após correções, o discente envia à coordenação de TCC: versão final do projeto (PDF) e ficha de avaliação assinada (PDF).
+- Data limite: último dia de aulas do semestre em que o aluno está matriculado em TCC1.
+
+TCC2 — MONOGRAFIA OU ARTIGO CIENTÍFICO
+Formatos aceitos:
+a) Monografia — estrutura obrigatória (normas ABNT): Capa, Resumo, Sumário, Introdução, Objetivos, Revisão Bibliográfica, Metodologia, Resultados e Discussão, Conclusão, Referências Bibliográficas.
+b) Artigo científico aceito para publicação — Qualis A, B ou C (CAPES), autores limitados ao discente e orientadores.
+
+O conteúdo pode abordar problemas da área de Engenharia de Bioprocessos ou áreas relacionadas às disciplinas da grade (obrigatórias ou optativas).
+
+BANCA EXAMINADORA (TCC2)
+- Composta pelo professor orientador e mais dois avaliadores com titulação mínima de graduação.
+- O aluno deve entregar versão digital do texto final aos membros da banca com pelo menos 1 semana de antecedência da data da apresentação oral.
+- A apresentação oral é em sessão pública, com auxílio de recursos audiovisuais.
+- Duração da apresentação: 30 minutos.
+- Arguição: cada membro da banca tem até 30 minutos após a apresentação.
+- Nota: cada membro atribui nota de 0 a 10 (números inteiros). A nota final é a média aritmética das notas dos avaliadores.
+
+PRAZOS APÓS DEFESA
+- O aluno aprovado em TCC2 tem 7 dias (a contar da data de defesa) para entregar a monografia corrigida (PDF) à coordenação de TCC.
+- No caso de artigo científico, o prazo é o mesmo: 7 dias para entrega do texto em PDF.
+- O não cumprimento da entrega dentro do prazo implica em reprovação.
+
+OBSERVAÇÕES IMPORTANTES
+- Trabalhos de Iniciação Científica já concluídos e relatórios de estágio NÃO são validados como TCC.
+- O aluno que não cumprir os prazos estabelecidos pelo Coordenador de TCC será reprovado automaticamente.
+- Os casos omissos são resolvidos pelo Colegiado do Curso de Engenharia de Bioprocessos.

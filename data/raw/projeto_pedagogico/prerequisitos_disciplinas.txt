@@ -1,0 +1,380 @@
+PRÉ-REQUISITOS E CO-REQUISITOS DAS DISCIPLINAS — ENGENHARIA DE BIOPROCESSOS (UNIFEI)
+(Fonte: Projeto Pedagógico do Curso, Grade 2023 — Ementário, Seção 11.8)
+
+Nota: "parcial" significa que o aluno pode se matricular na disciplina mesmo estando cursando o pré-requisito simultaneamente (aprovação parcial).
+
+================================================================================
+1º PERÍODO — Nenhuma disciplina possui pré-requisito
+================================================================================
+
+EBP101 — Introdução à Engenharia de Bioprocessos (32h)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+
+EBP102 — Fundamentos de Biologia Celular (32h)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+
+ADM51H — Ciência, Tecnologia e Organizações (48h)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+
+CCO016 — Fundamentos de Programação (64h)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+
+MAT00A — Cálculo A (64h)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+  Equivalência: MAT001
+
+QUI016 — Química Geral (64h)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+
+QUI113 — Química Geral Experimental (32h)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+  Equivalência: QUI017
+
+================================================================================
+2º PERÍODO
+================================================================================
+
+DES005 — Desenho Técnico Básico (32h)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+  Equivalência: DES201, BAC003
+
+FIS210 — Física I (64h)
+  Pré-requisitos: MAT00A ou MAT001
+  Co-requisitos: nenhum
+  Equivalência: FIS203
+
+FIS212 — Física Experimental I (32h)
+  Pré-requisitos: nenhum
+  Co-requisitos: FIS210 (deve cursar junto com Física I)
+
+LET013 — Escrita Acadêmico-Científica (32h)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+  Equivalência: LET016
+
+MAT00B — Cálculo B (64h)
+  Pré-requisitos: MAT00A ou MAT001
+  Co-requisitos: nenhum
+  Equivalência: MAT002
+
+MAT00D — Equações Diferenciais A (64h)
+  Pré-requisitos: MAT00A ou MAT001
+  Co-requisitos: nenhum
+  Equivalência: MAT021
+
+QUI021 — Química Bio-Orgânica (64h)
+  Pré-requisitos: QUI016 (parcial)
+  Co-requisitos: nenhum
+  Equivalência: QUI022
+
+================================================================================
+3º PERÍODO
+================================================================================
+
+EBP103 — Bioquímica I (32h)
+  Pré-requisitos: EBP101 e QUI021 (parcial)
+  Co-requisitos: nenhum
+  Equivalência: EBP033
+
+EBP104 — Princípios e Cálculos Elementares da Engenharia de Bioprocessos (64h)
+  Pré-requisitos: EBP001 (ou EBP101) e MAT00A (parcial)
+  Co-requisitos: nenhum
+  Equivalência: EBP038
+
+DES006 — Desenho Técnico Auxiliado por Computador (48h)
+  Pré-requisitos: DES005 (parcial) ou DES201 (parcial)
+  Co-requisitos: nenhum
+
+EEB100T — Eletricidade Básica (32h teórica)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+
+EEB100P — Eletricidade Básica Experimental (16h prática)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+
+EME311 — Mecânica dos Sólidos (64h)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+
+MAT00C — Cálculo C (64h)
+  Pré-requisitos: MAT00B
+  Co-requisitos: nenhum
+  Equivalência: MAT003
+
+MAT00N — Cálculo N (64h)
+  Pré-requisitos: MAT00A
+  Co-requisitos: nenhum
+  Equivalência: MAT012
+
+================================================================================
+4º PERÍODO
+================================================================================
+
+EBP105 — Bioquímica II (48h)
+  Pré-requisitos: EBP103 (parcial)
+  Co-requisitos: nenhum
+  Equivalência: EBP022
+
+EBP106 — Bioquímica Experimental (16h)
+  Pré-requisitos: EBP103 (parcial)
+  Co-requisitos: nenhum
+  Equivalência: EBP023
+
+BLI027 — Biologia Molecular (64h)
+  Pré-requisitos: EBP103 (parcial)
+  Co-requisitos: nenhum
+  Equivalência: EBP014
+
+EQI105 — Termodinâmica para Engenharia Química I (64h)
+  Pré-requisitos: (EBP104 ou EQI103) e MAT00B
+  Co-requisitos: nenhum
+  Equivalência: EQI005
+
+MAT00E — Equações Diferenciais B (64h)
+  Pré-requisitos: MAT00D e MAT00N
+  Co-requisitos: nenhum
+  Equivalência: MAT022
+
+MAT013 — Probabilidade e Estatística (64h)
+  Pré-requisitos: MAT001 ou MAT00A
+  Co-requisitos: nenhum
+
+QUI105 — Química Analítica (48h)
+  Pré-requisitos: QUI016
+  Co-requisitos: QUI115 (deve cursar junto com Química Analítica Experimental)
+
+QUI115 — Química Analítica Experimental (32h)
+  Pré-requisitos: QUI016
+  Co-requisitos: QUI105 (deve cursar junto com Química Analítica)
+
+================================================================================
+5º PERÍODO
+================================================================================
+
+EBP107 — Microbiologia Geral (48h)
+  Pré-requisitos: EBP105 (parcial)
+  Co-requisitos: EBP108 (deve cursar junto com Microbiologia Geral Experimental)
+  Equivalência: EBP010.1
+
+EBP108 — Microbiologia Geral Experimental (32h)
+  Pré-requisitos: EBP105 (parcial)
+  Co-requisitos: EBP107 (deve cursar junto com Microbiologia Geral)
+  Equivalência: EBP010.2
+
+EBP109 — Atividade da Água em Bioprocessos (48h)
+  Pré-requisitos: EBP101 e QUI105 (parcial)
+  Co-requisitos: nenhum
+
+EBP110 — Bioinformática (80h)
+  Pré-requisitos: EBP101, CCO016 e BLI027
+  Co-requisitos: nenhum
+  Equivalência: EBP034
+
+EQI004 — Fenômenos de Transporte I (64h)
+  Pré-requisitos: FIS210 (parcial) e EBP104 (parcial) e MAT00E (parcial)
+  Co-requisitos: nenhum
+
+EQI107 — Termodinâmica para Engenharia Química II (64h)
+  Pré-requisitos: EQI105
+  Co-requisitos: nenhum
+  Equivalência: EQI007
+
+IEPG10 — Engenharia Econômica (48h)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+  Equivalência: EPR502
+
+IRN001 — Ciências do Ambiente (32h)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+  Equivalência: EAM002
+
+================================================================================
+6º PERÍODO
+================================================================================
+
+EBP111 — Biossegurança e Bioética (32h)
+  Pré-requisitos: EBP107 (parcial)
+  Co-requisitos: nenhum
+  Equivalência: EBP011
+
+EBP112 — Cinética Química e Projeto de Reatores para Bioprocessos (64h)
+  Pré-requisitos: EBP104 (parcial)
+  Co-requisitos: nenhum
+  Equivalência: EQI003
+
+EBP113 — Cultura de Células (48h)
+  Pré-requisitos: EBP107 (parcial)
+  Co-requisitos: nenhum
+  Equivalência: EBP024
+
+EBP114 — Engenharia Genética (64h)
+  Pré-requisitos: EBP110 (Bioinformática)
+  Co-requisitos: nenhum
+  Equivalência: EBP025
+
+EPR220 — Higiene e Segurança do Trabalho (32h)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+  Equivalência: EPR004
+
+EQI013 — Fenômenos de Transporte II (64h)
+  Pré-requisitos: EQI004
+  Co-requisitos: nenhum
+
+EQI110 — Materiais para a Indústria Química (32h)
+  Pré-requisitos: EQI100 ou EBP101
+  Co-requisitos: nenhum
+
+EQI113 — Operações Unitárias da Indústria Química I (64h)
+  Pré-requisitos: EQI004
+  Co-requisitos: nenhum
+  Equivalência: EQI011
+
+================================================================================
+7º PERÍODO
+================================================================================
+
+EBP115 — Separação e Purificação de Biomoléculas (32h)
+  Pré-requisitos: EBP103 (parcial) e EQI113 (parcial)
+  Co-requisitos: EBP116 (deve cursar junto com a parte Experimental)
+  Equivalência: EBP026.1
+
+EBP116 — Separação e Purificação de Biomoléculas Experimental (16h)
+  Pré-requisitos: EBP103 (parcial) e EQI113 (parcial)
+  Co-requisitos: EBP115 (deve cursar junto com a parte teórica)
+  Equivalência: EBP026.2
+
+EBP117 — Laboratório de Engenharia de Bioprocessos 1 (64h)
+  Pré-requisitos: EQI004 (parcial)
+  Co-requisitos: nenhum
+  Equivalência: EQI012
+
+EBP118 — Tecnologia Enzimática (48h)
+  Pré-requisitos: EBP103 (parcial) e EBP107 (parcial)
+  Co-requisitos: nenhum
+  Equivalência: EBP030
+
+EBP119 — Engenharia Bioquímica (64h)
+  Pré-requisitos: EBP112 (parcial) e EBP107 (parcial)
+  Co-requisitos: nenhum
+  Equivalência: EBP013
+
+IEPG20 — Introdução à Economia (48h)
+  Pré-requisitos: nenhum
+  Co-requisitos: nenhum
+
+EQI022 — Fenômenos de Transporte III (64h)
+  Pré-requisitos: EQI013
+  Co-requisitos: nenhum
+
+EQI115 — Operações Unitárias da Indústria Química II (64h)
+  Pré-requisitos: EQI013
+  Co-requisitos: nenhum
+
+================================================================================
+8º PERÍODO
+================================================================================
+
+EBP120 — Modelagem e Simulação de Bioprocessos (80h)
+  Pré-requisitos: EBP119 (parcial)
+  Co-requisitos: nenhum
+
+EBP121 — Laboratório de Engenharia de Bioprocessos 2 (64h)
+  Pré-requisitos: EBP117 (parcial)
+  Co-requisitos: nenhum
+
+EBP122 — Microbiologia Industrial (48h)
+  Pré-requisitos: EBP107
+  Co-requisitos: EBP123 (deve cursar junto com Microbiologia Industrial Experimental)
+
+EBP123 — Microbiologia Industrial Experimental (16h)
+  Pré-requisitos: EBP107
+  Co-requisitos: EBP122 (deve cursar junto com Microbiologia Industrial)
+
+EBP124 — Tratamento de Resíduos (48h)
+  Pré-requisitos: EBP107 (parcial) e EQI004 (parcial)
+  Co-requisitos: nenhum
+
+EQI118 — Operações Unitárias da Indústria Química III (64h)
+  Pré-requisitos: EQI115 (parcial)
+  Co-requisitos: nenhum
+
+EQI054 — Instalações na Indústria Química (32h)
+  Pré-requisitos: EQI004
+  Co-requisitos: nenhum
+
+Optativa I (48h)
+  Pré-requisitos: variam conforme a disciplina escolhida
+
+================================================================================
+9º PERÍODO
+================================================================================
+
+EBP125 — Instrumentação e Controle de Bioprocessos (64h)
+  Pré-requisitos: EBP120 (parcial)
+  Co-requisitos: nenhum
+
+EBP126 — Projetos em Bioprocessos (48h)
+  Pré-requisitos: EBP120 (parcial) e EQI054 (parcial)
+  Co-requisitos: nenhum
+
+Optativa II (48h)
+  Pré-requisitos: variam conforme a disciplina escolhida
+
+================================================================================
+OUTROS COMPONENTES CURRICULARES
+================================================================================
+
+TCC1 — Trabalho de Conclusão de Curso 1 (51,2h)
+  Pré-requisitos: ter concluído 60% da carga horária de componentes curriculares obrigatórios
+  Co-requisitos: nenhum
+
+TCC2 — Trabalho de Conclusão de Curso 2 (76,8h)
+  Pré-requisitos: aprovação em TCC1
+  Co-requisitos: nenhum
+
+Estágio Supervisionado (174h)
+  Pré-requisitos: ter concluído 60% dos componentes curriculares obrigatórios
+  Co-requisitos: nenhum
+
+================================================================================
+RESUMO DAS CADEIAS DE PRÉ-REQUISITOS MAIS IMPORTANTES
+================================================================================
+
+CADEIA DE CÁLCULOS:
+MAT00A → MAT00B → MAT00C
+MAT00A → MAT00N
+MAT00A → MAT00D → (com MAT00N) → MAT00E
+
+CADEIA DE FÍSICA:
+MAT00A → FIS210 (co-requisito: FIS212)
+
+CADEIA DE QUÍMICA:
+QUI016 → QUI021 → EBP103 (Bioquímica I)
+QUI016 → QUI105 / QUI115
+
+CADEIA DE BIOQUÍMICA E MICROBIOLOGIA:
+EBP103 (Bioquímica I) → EBP105 (Bioquímica II) → EBP107 (Microbiologia Geral)
+EBP107 → EBP111 (Biossegurança), EBP113 (Cultura de Células), EBP122 (Microbiologia Industrial)
+
+CADEIA DE ENGENHARIA DE PROCESSOS:
+EBP104 → EQI105 (Termodinâmica I) → EQI107 (Termodinâmica II)
+EBP104 + FIS210 + MAT00E → EQI004 (Fenômenos de Transporte I)
+EQI004 → EQI013 (FT II) → EQI022 (FT III)
+EQI004 → EQI113 (Op. Unitárias I) → EQI115 (Op. Unitárias II) → EQI118 (Op. Unitárias III)
+
+CADEIA DE BIOTECNOLOGIA/GENÉTICA:
+EBP103 → BLI027 (Biologia Molecular) → EBP110 (Bioinformática) → EBP114 (Engenharia Genética)
+
+CADEIA DE BIOPROCESSOS AVANÇADOS:
+EBP112 (Cinética e Reatores) + EBP107 → EBP119 (Engenharia Bioquímica) → EBP120 (Modelagem e Simulação) → EBP125 (Instrumentação e Controle), EBP126 (Projetos)
