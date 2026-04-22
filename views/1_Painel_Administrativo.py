@@ -79,7 +79,6 @@ def list_documents():
                     col1.write(f"📎 {f.name}")
                     if col2.button("🗑️", key=f"del_{f}", help=f"Remover {f.name}"):
                         f.unlink()
-                        st.session_state.pending_changes = True
                         if github_configured():
                             with st.spinner(f"Removendo {f.name} do repositório..."):
                                 delete_file(
@@ -121,7 +120,6 @@ def upload_section():
             with open(dest_path, "wb") as f:
                 f.write(uploaded_file.getbuffer())
 
-            st.session_state.pending_changes = True
             if gh:
                 with st.spinner(f"Salvando {uploaded_file.name} no repositório..."):
                     ok = commit_file(
@@ -223,9 +221,7 @@ def rebuild_section():
                 progress_bar.progress(1.0, text="Concluído!")
                 step_placeholder.empty()
 
-                # Invalida o cache do vectorstore no chatbot e limpa o flag de pendências
                 st.session_state.vectorstore = None
-                st.session_state.pending_changes = False
 
                 if stats["added_files"] == 0 and stats["removed_files"] == 0:
                     st.success(
@@ -241,7 +237,7 @@ def rebuild_section():
                     if stats["skipped"]:
                         parts.append(f"{stats['skipped']} ignorado(s) sem mudança")
                     st.success(f"✅ {' • '.join(parts)}. Total: {count} chunks.")
-                _sync_vectorstore_to_github()
+                    _sync_vectorstore_to_github()
             except FileNotFoundError as e:
                 progress_bar.empty()
                 st.error(str(e))
@@ -275,7 +271,6 @@ def rebuild_section():
                 progress_bar.progress(1.0, text="Concluído!")
                 step_placeholder.empty()
                 st.session_state.vectorstore = None
-                st.session_state.pending_changes = False
                 st.success(f"✅ Banco vetorial reconstruído! {count} chunks indexados.")
                 _sync_vectorstore_to_github(delete_removed=True)
             except FileNotFoundError as e:
@@ -383,7 +378,6 @@ def edit_documents_section():
             st.error("O conteúdo não pode ficar vazio.")
         else:
             selected_path.write_text(edited_content, encoding="utf-8")
-            st.session_state.pending_changes = True
             subdir_name = selected_label.split("/")[0]
             _commit_file_to_github(
                 selected_path,
@@ -430,7 +424,6 @@ def edit_documents_section():
                 st.error(f"Já existe um arquivo com o nome `{safe_name}` nessa categoria.")
             else:
                 dest_path.write_text(new_content.strip(), encoding="utf-8")
-                st.session_state.pending_changes = True
                 _commit_file_to_github(
                     dest_path,
                     raw_doc_repo_path(new_category, safe_name),
@@ -592,12 +585,7 @@ with st.sidebar:
     st.divider()
     st.caption("Chatbot EBP — UNIFEI")
 
-# Inicializa flag de alterações pendentes (calculado apenas uma vez por sessão
-# e atualizado pelos eventos de salvar/upload/delete)
-if "pending_changes" not in st.session_state:
-    st.session_state.pending_changes = _has_pending_changes()
-
-if st.session_state.pending_changes:
+if _has_pending_changes():
     st.warning(
         "**Alterações pendentes** — a base vetorial está desatualizada. "
         "Vá em **🔄 Atualizar Base** e clique em **Atualização incremental** quando terminar todas as edições.",
