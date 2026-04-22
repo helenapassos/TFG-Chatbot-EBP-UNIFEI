@@ -19,28 +19,26 @@ import requests
 # Configuração
 # ---------------------------------------------------------------------------
 
-def _cfg() -> tuple[str, str, str, str]:
-    """Retorna (token, repo, branch, app_dir) a partir de env vars ou Streamlit Secrets."""
-    token = repo = app_dir = ""
+def _cfg() -> tuple[str, str, str]:
+    """Retorna (token, repo, branch) a partir de env vars ou Streamlit Secrets."""
+    token = repo = ""
     branch = "main"
     try:
         import streamlit as st
-        token    = st.secrets.get("GITHUB_TOKEN", "")
-        repo     = st.secrets.get("GITHUB_REPO", "")
-        branch   = st.secrets.get("GITHUB_BRANCH", "main") or "main"
-        app_dir  = st.secrets.get("GITHUB_APP_DIR", "chatbot-ebp")
+        token  = st.secrets.get("GITHUB_TOKEN", "")
+        repo   = st.secrets.get("GITHUB_REPO", "")
+        branch = st.secrets.get("GITHUB_BRANCH", "main") or "main"
     except Exception:
         pass
-    token   = os.getenv("GITHUB_TOKEN", token)
-    repo    = os.getenv("GITHUB_REPO", repo)
-    branch  = os.getenv("GITHUB_BRANCH", branch) or "main"
-    app_dir = os.getenv("GITHUB_APP_DIR", app_dir)
-    return token, repo, branch, app_dir
+    token  = os.getenv("GITHUB_TOKEN", token)
+    repo   = os.getenv("GITHUB_REPO", repo)
+    branch = os.getenv("GITHUB_BRANCH", branch) or "main"
+    return token, repo, branch
 
 
 def github_configured() -> bool:
     """Retorna True se GITHUB_TOKEN e GITHUB_REPO estiverem configurados."""
-    token, repo, _, _ = _cfg()
+    token, repo, _ = _cfg()
     return bool(token and repo)
 
 
@@ -72,7 +70,7 @@ def commit_file(local_path: Path, repo_path: str, message: str) -> bool:
     Cria ou atualiza um arquivo no repositório GitHub.
     repo_path: caminho relativo no repo (ex: "chatbot-ebp/data/raw/dicas/aviso.txt")
     """
-    token, repo, branch, _ = _cfg()
+    token, repo, branch = _cfg()
     if not token or not repo:
         return False
 
@@ -94,7 +92,7 @@ def commit_file(local_path: Path, repo_path: str, message: str) -> bool:
 
 def delete_file(repo_path: str, message: str) -> bool:
     """Remove um arquivo do repositório GitHub."""
-    token, repo, branch, _ = _cfg()
+    token, repo, branch = _cfg()
     if not token or not repo:
         return False
 
@@ -140,7 +138,7 @@ def commit_directory(
     Se delete_removed=True, remove do repo arquivos que não existem mais localmente.
     Retorna (arquivos_incluídos, falhas).
     """
-    token, repo, branch, _ = _cfg()
+    token, repo, branch = _cfg()
     if not token or not repo:
         return 0, 0
 
@@ -247,26 +245,21 @@ def commit_directory(
 # Helpers de caminho para este projeto
 # ---------------------------------------------------------------------------
 
-def _prefix() -> str:
-    _, _, _, app_dir = _cfg()
-    return f"{app_dir}/" if app_dir else ""
-
-
 def raw_doc_repo_path(category: str, filename: str) -> str:
     """Caminho no repo para um documento da base de conhecimento."""
-    return f"{_prefix()}data/raw/{category}/{filename}"
+    return f"data/raw/{category}/{filename}"
 
 
 def vectorstore_repo_dir() -> str:
     """Prefixo do diretório do vectorstore no repo."""
-    return f"{_prefix()}data/vectorstore"
+    return "data/vectorstore"
 
 
 def ppc_config_repo_path() -> str:
     """Caminho no repo para o arquivo de configuração do PPC."""
-    return f"{_prefix()}data/ppc_config.json"
+    return "data/ppc_config.json"
 
 
 def tips_repo_path() -> str:
     """Caminho no repo para o arquivo de dicas/avisos."""
-    return f"{_prefix()}data/dicas.json"
+    return "data/dicas.json"
